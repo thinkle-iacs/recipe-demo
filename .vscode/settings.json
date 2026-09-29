@@ -1,0 +1,46 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.vscode": true,
+    "**/node_modules": true,
+    "package.json": true,
+    "package-lock.json": true,
+    "**/.github": true,
+    ".gitignore": true,
+    "screenshots": true
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/.vscode": true,
+    "**/node_modules": true,
+    "package.json": true,
+    "package-lock.json": true
+  },
+  "files.watcherExclude": {
+    "**/.git/**": true,
+    "**/.vscode/**": true,
+    "**/node_modules/**": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "html.format.indentInnerHtml": true,
+  "html.format.extraLiners": "",
+  "html.format.wrapLineLength": 100,
+  "html.format.endWithNewline": true
+}
